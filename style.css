@@ -1,0 +1,145 @@
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    color:  #07050d;
+}
+header {
+    background-color: lightgray;
+    color:  #07050d;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+
+header nav {
+    background: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+  
+    position: fixed;
+    top: 0;
+    width: 1024px;
+    z-index: 200;
+    box-shadow: 0 2px 10px -3px rgba(0, 0, 0, 0.2);
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin: 0 24px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #07050d;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+img.profile-picture {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+    border-radius: 15px; /* Adjust the radius as needed */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li:before {
+    content: "● ";
+}
+a {
+    color: lightsteelblue;
+    text-decoration: none;
+    
+}
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: #1a1a1a;
+    color: #ffc600;
+}
+
+/* Adjustments for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #777;
+    padding: 8px;
+    text-align: left;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 550;
+    
+} 
+/* style.css */
+
+.access-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(207, 204, 204); /* Button color */
+    color: whitesmoke; /* Text color */
+    text-decoration: whitesmoke;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content:  center;
+    gap: 30px;
+
+}
+
+
+.access-button:hover{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(152, 152, 152); /* Button color */
+    color:rgb(174, 209, 255); /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
